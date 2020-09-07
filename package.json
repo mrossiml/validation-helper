@@ -1,0 +1,41 @@
+{
+  "name": "react-typescript-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "license": "ISC",
+  "author": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server -d --open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@andes/button": "4.4.3",
+    "@andes/checkbox": "4.4.3",
+    "@andes/form": "4.4.3",
+    "@andes/message": "4.4.3",
+    "@andes/tabs": "4.4.3",
+    "@andes/textfield": "4.4.3",
+    "@types/react": "^16.9.46",
+    "@types/react-dom": "^16.9.8",
+    "awesome-typescript-loader": "^5.2.1",
+    "css-loader": "^4.2.1",
+    "html-webpack-plugin": "^4.3.0",
+    "mini-css-extract-plugin": "^0.10.0",
+    "node-sass": "^4.14.1",
+    "odin-addons": "2.6.2",
+    "react-icons": "3.11.0",
+    "react-router-dom": "5.2.0",
+    "sass-loader": "^9.0.3",
+    "source-map-loader": "^1.0.1",
+    "typescript": "^3.9.7",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
