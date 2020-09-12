@@ -4,7 +4,7 @@ import Componente2 from './Componente2';
 import CustomInput from "../validationHelper/CustomInput";
 import {Patterns} from "../validationHelper/Patterns";
 import Button from '@andes/button';
-import Checkbox from '@andes/Checkbox';
+import Checkbox from '@andes/checkbox';
 import {ObjectValidation} from "../validationHelper/ObjectValidation";
 import {CUSTOM_BOOLEAN, EQUAL_TRUE, MAX_LENGHT, MIN_LENGHT, NOT_EMPTY, PATTERN} from "../validationHelper/Validations";
 import {ValidatorHelper} from "../validationHelper/ValidatorHelper";
