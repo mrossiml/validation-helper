@@ -1,6 +1,9 @@
 import React, {useState, useEffect, Dispatch, SetStateAction} from 'react';
 import AppRouter from "../router/AppRouter";
 import User from "../clases/User";
+import Componente1 from "./Componente1";
+import Componente2 from "./Componente2";
+import Componente3 from "./Componente3";
 
 //Falta:
 // - Validacion asincronica
@@ -45,6 +48,9 @@ const App = () => {
     return (
         <>
             <DataContext.Provider value={{users, addUser, deleteUser}}>
+                <Componente1></Componente1>
+                <Componente2></Componente2>
+                <Componente3></Componente3>
                 <AppRouter/>
             </DataContext.Provider>
         </>
