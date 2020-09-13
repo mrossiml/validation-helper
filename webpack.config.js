@@ -13,13 +13,8 @@ module.exports = {
     },
     module: {
         rules: [
-            // {
-            //     // Esto significa: testea los archivos que tienen esa extension. 
-            //     // Y si encontras uno de esos archivos con esa extensión, usa el loader ese que te especifico
-            //     test: /\.(t|j)sx?$/,
-            //     loader: 'awesome-typescript-loader',
-            //     exclude: /node_modules/,
-            // },
+            // Esto significa: testea los archivos que tienen esa extension. 
+            // Y si encontras uno de esos archivos con esa extensión, usa el loader ese que te especifico
             // we use babel-loader to load our jsx and tsx files
             {
                 test: /\.(ts|js)x?$/,
@@ -29,7 +24,7 @@ module.exports = {
                 },
             },
             {
-                test: /\.scss$/,
+                test: /\.(sa|sc|c)ss$/,
                 use: [
                     MiniCssExtractPlugin.loader,
                     'css-loader',
