@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5336274-a22c-406d-bd85-8596678a209b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +26,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -36,6 +43,7 @@
       <option name="presentableId" value="Default" />
       <updated>1599520151653</updated>
       <workItem from="1599520152810" duration="1433000" />
+      <workItem from="1599957366613" duration="235000" />
     </task>
     <task id="LOCAL-00001" summary="se sube proyecto">
       <created>1599520309421</created>
@@ -44,7 +52,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599520309421</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="se sube proyecto">
+      <created>1599957396709</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599957396709</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -55,13 +70,13 @@
     <option name="LAST_COMMIT_MESSAGE" value="se sube proyecto" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1395" y="-587" key="CommitChangelistDialog2" timestamp="1599520308326">
+    <state x="-1395" y="-587" key="CommitChangelistDialog2" timestamp="1599957395991">
       <screen x="-1920" y="-623" width="1920" height="1080" />
     </state>
-    <state x="-1395" y="-587" key="CommitChangelistDialog2/0.0.1440.900/-1920.-623.1920.1080@-1920.-623.1920.1080" timestamp="1599520308326" />
-    <state x="-1360" y="-347" key="Vcs.Push.Dialog.v2" timestamp="1599520313666">
+    <state x="-1395" y="-587" key="CommitChangelistDialog2/0.0.1440.900/-1920.-623.1920.1080@-1920.-623.1920.1080" timestamp="1599957395991" />
+    <state x="-1360" y="-347" key="Vcs.Push.Dialog.v2" timestamp="1599957397694">
       <screen x="-1920" y="-623" width="1920" height="1080" />
     </state>
-    <state x="-1360" y="-347" key="Vcs.Push.Dialog.v2/0.0.1440.900/-1920.-623.1920.1080@-1920.-623.1920.1080" timestamp="1599520313666" />
+    <state x="-1360" y="-347" key="Vcs.Push.Dialog.v2/0.0.1440.900/-1920.-623.1920.1080@-1920.-623.1920.1080" timestamp="1599957397694" />
   </component>
 </project>

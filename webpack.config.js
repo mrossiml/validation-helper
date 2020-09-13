@@ -13,12 +13,20 @@ module.exports = {
     },
     module: {
         rules: [
+            // {
+            //     // Esto significa: testea los archivos que tienen esa extension. 
+            //     // Y si encontras uno de esos archivos con esa extensión, usa el loader ese que te especifico
+            //     test: /\.(t|j)sx?$/,
+            //     loader: 'awesome-typescript-loader',
+            //     exclude: /node_modules/,
+            // },
+            // we use babel-loader to load our jsx and tsx files
             {
-                // Esto significa: testea los archivos que tienen esa extension. 
-                // Y si encontras uno de esos archivos con esa extensión, usa el loader ese que te especifico
-                test: /\.(t|j)sx?$/,
-                loader: 'awesome-typescript-loader',
+                test: /\.(ts|js)x?$/,
                 exclude: /node_modules/,
+                use: {
+                    loader: 'babel-loader'
+                },
             },
             {
                 test: /\.scss$/,
