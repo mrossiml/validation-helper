@@ -92,7 +92,7 @@ const FormHook = (props) => {
                 <Button onClick={guardarClick}
                         disabled={!validations.isValid}>Guardar con disabled</Button>
 
-                <Button onClick={guardarClick} styleDivConteiner={{marginLeft: '20px'}}>Guardar sin disabled</Button>
+                <Button onClick={guardarClick}>Guardar sin disabled</Button>
             </div>}
         </div>
     )
